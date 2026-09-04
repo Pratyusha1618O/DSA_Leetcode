@@ -16,7 +16,7 @@ class Solution {
             }
             else{
                 for(int j=0; j<=i; j++){
-                    int[] subArray2 = Arrays.copyOfRange(nums, 0, i);
+                    int[] subArray2 = Arrays.copyOfRange(nums, 0, i+1);
                     max = Arrays.stream(subArray2).max().getAsInt();
                 }
             }
