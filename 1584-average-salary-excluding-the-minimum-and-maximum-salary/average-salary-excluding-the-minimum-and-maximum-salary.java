@@ -7,7 +7,7 @@ class Solution {
         int max = salary[salary.length-1];
 
         int n = salary.length;
-        float totalSalary = 0;
+        int totalSalary = 0;
         for(int i=0; i<n; i++){
             totalSalary += salary[i];
         }
